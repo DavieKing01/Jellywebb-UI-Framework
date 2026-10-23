@@ -1,0 +1,22 @@
+
+:root {
+  --juf-font-family-sans: Inter, Arial, sans-serif;
+
+  --juf-font-weight-regular: 400;
+  --juf-font-weight-medium: 500;
+  --juf-font-weight-semibold: 600;
+  --juf-font-weight-bold: 700;
+
+  --juf-font-size-xs: 12px;
+  --juf-font-size-sm: 14px;
+  --juf-font-size-md: 16px;
+  --juf-font-size-lg: 18px;
+  --juf-font-size-heading-sm: 20px;
+  --juf-font-size-heading-md: 24px;
+  --juf-font-size-heading-lg: 30px;
+  --juf-font-size-heading-xl: 36px;
+
+  --juf-line-height-compact: 1.25;
+  --juf-line-height-standard: 1.5;
+  --juf-line-height-relaxed: 1.65;
+}

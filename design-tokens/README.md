@@ -41,3 +41,15 @@ Keep the token specification framework-neutral. Web output can use CSS custom pr
 2. Show examples in realistic interfaces, including dense business workflows.
 3. Check contrast, dark theme, responsive use, and interaction states.
 4. Record approval and any deprecation or migration rules.
+## Typography baseline
+
+The proposed typography baseline is documented in [`specifications/TYPOGRAPHY.md`](specifications/TYPOGRAPHY.md).
+
+- **Token source:** [`tokens/typography.json`](tokens/typography.json)
+- **CSS output:** [`generated/css/typography.css`](generated/css/typography.css)
+- **Default typeface:** Inter, with Arial and generic sans-serif fallbacks.
+- **Status:** Proposed baseline; values require validation before production adoption.
+
+The JSON file defines the framework-neutral typography values. The CSS file provides the corresponding `--juf-` custom properties for web implementations.
+
+Keep the JSON and CSS values synchronized when changing the typography scale. Automated token generation and validation can be introduced in a later step.
