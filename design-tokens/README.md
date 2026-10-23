@@ -53,3 +53,23 @@ The proposed typography baseline is documented in [`specifications/TYPOGRAPHY.md
 The JSON file defines the framework-neutral typography values. The CSS file provides the corresponding `--juf-` custom properties for web implementations.
 
 Keep the JSON and CSS values synchronized when changing the typography scale. Automated token generation and validation can be introduced in a later step.
+
+### Typography generation and validation
+
+From the repository root, run:
+
+```bash
+node scripts/generate-typography.mjs
+```
+
+This validates the typography token structure and regenerates `generated/css/typography.css`.
+
+To verify that the generated CSS matches the JSON source without changing files, run:
+
+```bash
+node scripts/generate-typography.mjs --check
+```
+
+The generator uses Node.js built-in modules and requires no third-party dependencies. Edit `tokens/typography.json` rather than editing generated CSS directly.
+
+Before committing typography changes, regenerate the CSS and run check mode.
