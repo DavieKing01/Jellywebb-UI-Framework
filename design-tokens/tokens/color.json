@@ -1,0 +1,80 @@
+{
+  "palette": {
+    "brandOrange": "#FF7A18",
+    "orangeDeep": "#B84B00",
+    "royalBlue": "#2563EB",
+    "royalBlueHover": "#1D4ED8",
+    "purple": "#6D5AE6",
+    "purpleVivid": "#D946EF",
+    "white": "#FFFFFF",
+    "ink": "#172033",
+    "slate950": "#0B1220",
+    "slate900": "#111B2E",
+    "slate800": "#172338",
+    "slate700": "#334155",
+    "slate600": "#475569",
+    "slate500": "#64748B",
+    "slate400": "#94A3B8",
+    "slate300": "#CBD5E1",
+    "slate200": "#E2E8F0",
+    "slate100": "#F1F5F9",
+    "slate50": "#F8FAFC"
+  },
+  "semantic": {
+    "light": {
+      "canvas": "#F8FAFC",
+      "surface": "#FFFFFF",
+      "surfaceRaised": "#F1F5F9",
+      "textPrimary": "#172033",
+      "textSecondary": "#475569",
+      "textMuted": "#64748B",
+      "border": "#CBD5E1",
+      "actionPrimary": "#2563EB",
+      "actionPrimaryHover": "#1D4ED8",
+      "actionPrimaryText": "#FFFFFF",
+      "actionSecondary": "#FFFFFF",
+      "actionSecondaryHover": "#EFF6FF",
+      "actionSecondaryText": "#172033",
+      "link": "#1D4ED8",
+      "focus": "#1D4ED8",
+      "success": "#176B52",
+      "warning": "#8A4B00",
+      "danger": "#B42318",
+      "info": "#175CD3",
+      "disabledSurface": "#E2E8F0",
+      "disabledText": "#475569"
+    },
+    "dark": {
+      "canvas": "#0B1220",
+      "surface": "#111B2E",
+      "surfaceRaised": "#172338",
+      "textPrimary": "#F8FAFC",
+      "textSecondary": "#CBD5E1",
+      "textMuted": "#94A3B8",
+      "border": "#475569",
+      "actionPrimary": "#2563EB",
+      "actionPrimaryHover": "#1D4ED8",
+      "actionPrimaryText": "#FFFFFF",
+      "actionSecondary": "#111B2E",
+      "actionSecondaryHover": "#24334B",
+      "actionSecondaryText": "#F8FAFC",
+      "link": "#93C5FD",
+      "focus": "#93C5FD",
+      "success": "#6CE9A6",
+      "warning": "#FEC84B",
+      "danger": "#FDA29B",
+      "info": "#84CAFF",
+      "disabledSurface": "#334155",
+      "disabledText": "#CBD5E1"
+    }
+  },
+  "gradients": {
+    "signature": "linear-gradient(110deg, #FF7A18 0%, #D946EF 55%, #6D5AE6 100%)",
+    "orangeToPurple": "linear-gradient(110deg, #FF7A18 0%, #6D5AE6 100%)"
+  },
+  "variants": {
+    "actionOrange": { "background": "#FF7A18", "foreground": "#172033" },
+    "actionOrangeDeep": { "background": "#B84B00", "foreground": "#FFFFFF" },
+    "actionGradient": { "background": "linear-gradient(110deg, #FF7A18 0%, #D946EF 55%, #6D5AE6 100%)", "foreground": "#FFFFFF" }
+  }
+}
